@@ -1,8 +1,14 @@
+/*This Question is to see whether path exist btwn two vertices or not
+Solution uses BFS approch to solve the problem
+Question Link: https://practice.geeksforgeeks.org/problems/find-whether-path-exist/0
+*/
+
 #include<iostream>
 //#include<pair>
 #include<queue>
 #include<stdio.h>
 using namespace std;
+
 
 bool isValidVertice(int x,int y,int size){
 
