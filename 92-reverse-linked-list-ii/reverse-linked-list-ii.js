@@ -38,9 +38,9 @@ var reverseBetween = function (head, left, right) {
         return head;
     }
 
-    console.log(index,right)
+   // console.log(index,right)
     if (index >= right) {
-        console.log(firstEnd.val)
+     //   console.log(firstEnd.val)
       firstEnd.next.next = next;
       firstEnd.next = prev;   
       break;
