@@ -13,7 +13,7 @@ var leastInterval = function (tasks, n) {
      
       return obj;
   }, {})
-  console.log(map)
+  //console.log(map)
   let indexTracker = {};
 
   const getNextTask = (index) => {
