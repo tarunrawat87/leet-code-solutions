@@ -51,7 +51,7 @@ var nextGreaterElement = function (nums1, nums2) {
     return result;
 }
 
-console.log(nextGreaterElement([1, 3, 5, 2, 4], [6, 5, 4, 3, 2, 1, 7]))
+
 // 2 4
 //2 --> 4
 
