@@ -40,7 +40,6 @@ var maximumDifference = function (nums) {
 
 
     }
-    console.log('Hii')
     let stackSize = stack.length;
     if (!stack.empty() && stackSize > 1) {
         let iEle = stack.top();
