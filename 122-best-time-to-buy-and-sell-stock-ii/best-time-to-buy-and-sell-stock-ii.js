@@ -19,7 +19,7 @@ var maxProfit = function (prices) {
     let noPush = true;
     let lastOperationPop = false;
     while (index < prices.length) {
-        console.log(prices[index],sum)
+       // console.log(prices[index],sum)
         if (stack.empty()) {
             stack.push(prices[index])
             min = prices[index];
@@ -39,7 +39,7 @@ var maxProfit = function (prices) {
         } else {
 
             if(diff !== Number.MIN_SAFE_INTEGER){
-                console.log(sum,diff,prices[index])
+           //     console.log(sum,diff,prices[index])
                 sum+= diff
             };
 
