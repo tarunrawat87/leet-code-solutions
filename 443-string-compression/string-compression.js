@@ -28,19 +28,14 @@ var compress = function (chars) {
       }
 
       let numersStr = String(count).split("");
-      console.log(numersStr);
       insertNumberInArr(numersStr, chars, fP+1);
-      console.log(chars)
       let indexForDeletion = fP + numersStr.length + 1;
-      console.log('index for deletion and count',indexForDeletion,sP - indexForDeletion)
       deleteRemainChars(chars,indexForDeletion,sP - indexForDeletion);
-      console.log(chars)
       sP = fP + numersStr.length + 1;  
      
       fP = sP;
-       console.log('new index of sP',sP,chars[sP],chars[fP])
       count = 1;
-      console.log('******************')
+     
     } else {
          count++;       
     }
@@ -54,6 +49,5 @@ var compress = function (chars) {
        let indexForDeletion = fP + numersStr.length + 1; 
        deleteRemainChars(chars,indexForDeletion,sP - indexForDeletion);
    }
-  console.log(chars)
   return chars.length;
 };
